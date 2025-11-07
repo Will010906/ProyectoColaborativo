@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             ProyectoColaborativoTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Felis jawuelin grupo, soy vanessa",
+                        name = "Feliz navidad y prospero año nuevo",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     ProyectoColaborativoTheme {
-        Greeting("Felis jawuelin grupo, soy vanessa")
+        Greeting("Feliz navidad y prospero año nuevo")
     }
 }
